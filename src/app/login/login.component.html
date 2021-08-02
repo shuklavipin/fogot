@@ -1,0 +1,18 @@
+<div class="container-fluid form-container body">
+    <div class="row">
+        <div class="col-md-4 bg-white">
+            <form class="form-signin">
+                <h1 style=font-size:xx-large class="h3 my-3 font-weight-normal">Sign In</h1>
+                <p><label for="inputEmail" class="pt-2">Username</label>
+                <input type="text" formControlName="email_id" class="form-control pt-2 mb-4 space" placeholder="Username/ Email ID" autofocus=""></p>
+                <p><label for="inputPassword" class="mt-4">Password</label>
+                <input type="password" formControlName="password" id="inputPassword" class="form-control pt-2 space" placeholder="Password">
+                <a href="#"style="margin-bottom: 15px;text-decoration: underline;color: #007bff;" class="mt-2 cursor-pointer"
+                   (click)="goToForgotScreen()">Forgot Password?</a>
+                <div class="submit-form">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
